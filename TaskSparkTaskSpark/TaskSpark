@@ -20,7 +20,9 @@ def main():
         print("2. Add task")
         print("3. Delete task")
         print("4. Exit")
-
+print("\nTaskSpark Menu")
+        print("1. Show tasks")
+        print("2. Add task")
 def save_tasks(tasks):
     with open("tasks.txt", "w") as file:
         for task in tasks:
